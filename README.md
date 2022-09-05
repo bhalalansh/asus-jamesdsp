@@ -36,8 +36,9 @@ There is also a balance of tuning profiles to work with your laptop on a table v
 Or do:
 
 ```bash
+mv ~/.config/jamesdsp ~/.config/jamesdsp.bak
+mkdir ~/.config/jamesdsp
 git clone https://github.com/sammilucia/asus-jamesdsp
-[ ! -d "~/.config/jamesdsp" ] || mkdir ~/.config/jamesdsp
 cp -r ./asus-jamesdsp/jamesdsp/* ~/.config/jamesdsp
 rm -rf asus-jamesdsp
 ```
