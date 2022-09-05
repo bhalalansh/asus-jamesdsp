@@ -38,6 +38,6 @@ Or do:
 ```
 git clone https://github.com/sammilucia/asus-jamesdsp
 [ ! -d "~/.config/jamesdsp" ] && mkdir jamesdsp
-cp asus-jamesdsp/jamesdsp ~/.config/jamesdsp
+cp -r ./asus-jamesdsp/jamesdsp/* ~/.config/jamesdsp
 rm -rf asus-jamesdsp
 ```
